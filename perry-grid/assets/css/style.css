@@ -1,0 +1,24 @@
+article h1 {
+  text-align: center;
+}
+
+article.implicit-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 50px;
+}
+
+article.implicit-grid > section {
+  text-align: justify;
+  content: center;
+  background-color: #f47f
+}
+
+footer.implicit-grid {
+  display: grid;
+  text-align: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-gap: 20px;
+}
